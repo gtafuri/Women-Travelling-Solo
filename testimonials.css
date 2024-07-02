@@ -1,0 +1,114 @@
+html, body {
+background-color:rgba(239, 207, 227, 1); 
+  height: 100%;
+  width: 100%;
+  margin:0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.logo{
+  display: flex;
+}
+.wts-Logo{
+  padding-left: 3em;
+  padding-top: 3.5em;
+  height: 15em;
+  align-self: center;
+}
+.main-Titles{
+  font-size: 2em;
+  color: #fe717f;
+}
+
+nav{
+background-color: #deabb4; 
+/*   find a way to make it transparent without overlay */
+  height: 6.5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed; /* Sets the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+}
+nav ul li{
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: inline-block;
+  list-style: none;
+  padding: 2em 1.5em;
+  border-radius: 1em;
+}
+
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+/* Change the link color when hovering over it*/
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+.main-content{
+  padding: 6.5em;
+  display: flexbox;
+  justify-content: center;
+}
+
+
+.wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:  #deabb4;
+  width: 80%;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 2em;
+}
+
+p {
+  font-size: 145%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+label {
+  font-size: 125%;
+  width: ;
+}
+
+.name-input, .testimony-input, .destination-input, .origin-input {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-bottom: 1px solid #E9E7F0;
+  outline: rgba(0, 0, 0, 0.75);
+  color: #E9E7F0;
+  width: 100%;
+  font-size: 120%;
+  padding: 2px 4px;
+
+}
+
+.post-btn {
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 125%;
+  background-color: rgba(3, 5, 154, 0.25);
+  border-radius: 3px;
+  border: 1px solid #41307e;
+  color: #E9E7F0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.posted-testimony {
+  font-size: 300%;
+  margin-bottom: 0;
+  color:  #100404;
+}

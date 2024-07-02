@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="testimonials.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <!--header -->
+  <nav>
+    <div class= "logo"> 
+     <img class="wts-Logo" src="https://i.ibb.co/xjF0FXJ/wts-2-removebg-preview.png" alt="WTS logo" border="0">      </div>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="TravelTips.html">TRAVEL TIPS</a></li> 
+      <li><a href="Testimonials.html">TRIP TESTIMONIALS</a></li>
+      <li><a href="About-us.html">ABOUT US</a></li>
+    </ul>
+  </nav>
+
+<!--  we'll have to create a forms on js that let's people post testimonials about their trips to each place with a rating (of max 5 stars)-->
+<section class="main-content">  
+  <h1 class="main-Titles">Trip Testimonials</h1>
+  <div class="wrapper">
+      <p>Post your travel testimonies! If you're comfortable please share your background so people can better understand your experiences.<p>
+
+      <form>
+        <label>Your name:
+          <input class="name-input" type="text"/>
+        </label>
+        <br><label>Your origin:
+          <input class="origin-input" type="text"/>
+        </label>
+        <br>
+        <label>Your destination:
+          <input class="destination-input" type="text"/>
+        </label>
+        <br>
+        <label>Your testimony:
+          <input class="testimony-input" type="text"/>
+        </label>
+        <br>
+        <button class="post-btn">Post!</button>
+      </form>
+    </div>
+      <h2 class="posted-testimony"></h2>
+<div class="wrapper">
+<h1  style=" display: inline" >Andrea Sheeran</h1> <h2 style=" display: inline; font-weight: lighter" >from Ireland, visiting Cuzco, Peru</h2>
+  <p>The country's atmosphere was amazing! While you need to be aware of your surrondings, I'd really recommend a visit. Everyone is so friendly and helpfull to travellers. </p>
+</div>
+  <br> <br>
+  <div class="wrapper">
+<h1  style=" display: inline" >Julia Silva</h1> <h2 style=" display: inline; font-weight: lighter" >from Brazil, visiting Paris, France</h2>
+  <p>Although Paris, as every main city in the world, it's know for their safety issues, I felt very safe and welcomed there. I'd definelty revisit. But I did notice sometimes locals were very rude to other turists that didn't speak french, so definetly keep that in mind. </p>
+</div>
+
+</section>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="Testimonials.js"></script>
+</body>
+
+</html>

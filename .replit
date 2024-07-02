@@ -1,0 +1,7 @@
+modules = ["web"]
+run = "start"
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "start"]
